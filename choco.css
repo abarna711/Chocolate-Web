@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar a{
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 20px;
+}
+#home{
+    background-image: url(/image/slider-bg.png);
+    color: white;
+    background-size: cover;
+}
+#home h1{
+    margin-top: 200px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black;
+}
+#home p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+#home img{
+    margin-left: 160px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+#about h1,p{
+margin-top: 150px;
+}
+#about h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#about p{
+    font-size: 18px;
+}
+#about button{
+    align-items: center;
+    text-align: center;
+    background-color:coral;
+    font-weight:bold ;
+}
+#about img{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#product h1,p{
+margin-top: 100px;
+margin-bottom: 20px;
+}
+#product h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+#product p{
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+#product .col{
+    margin-top: 30px;
+}
+#product #img{
+    height: 200px;
+    margin-top: 70px;
+}
+
+#contact img{
+    margin-top: 100px;
+    height: 500px;
+}
+#contact .form{
+    margin-top: 50px;
+
+}
+#contact h1{
+    margin-top: 100px;
+}
+#contact input{
+    margin-bottom: 20px;
+}
+#contact .form button{
+    padding: 5px 20px 5px 20px;
+}
